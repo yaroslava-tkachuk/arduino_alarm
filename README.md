@@ -3,25 +3,25 @@ Arduino with LCD Keypad Shield alarm clock made from scratch.
 
 Author: Yaroslava Tkachuk, BSc student of the University of Silesia, Katowice, Poland.
 
-An alarm with simple GUI implemented with the use of LCD Keypad Shield.
+An alarm with a simple GUI implemented with the use of LCD Keypad Shield.
 
-Main thing I enjoy about this little project: hand made threading! All classes' methods are implemented in a way that their conditions are checked once per main loop iteration. Thus, we get all the following functionality done simultaneously with no delays or unneeded interrupts:
+Main thing I enjoy about this little project - hand made threading! All classes' methods are implemented in a way that their conditions are checked once per main loop iteration. Thus, we get all the following functionality done simultaneously with no delays or unneeded interrupts:
 - displaying data and time
 - changing date and time
-- setting alarm (date, time, and melody)
+- setting alarm: date, time, and melody
 - playing alarm sound until turned off
 
-Caution: when doing so You should make sure execution time of all functions used in the main Arduino loop does not exceed the main loop single iteration time (based on used processor frequency).
+Caution: when doing so You should make sure execution time of all functions used in the main Arduino loop does not exceed the main loop single iteration time (based on the used processor frequency).
 
 Files:
 - a_notes.ino - notes defines taken from https://www.arduino.cc/en/Tutorial/toneMelody (thank You, guys, for developing this cool project)
 - b_sound_class.ino - class responsible for sound managing
 - c_clock_class.ino - made from scratch clock: yes, a proper real time clock module could be used, but the project was done purely for learning purposes :)
 - d_alarm_class.ino - alarm implementation
-- e_button_class.ino - button managing class: voltage ranges of the buttons have been read from A0 analogue pin
+- e_button_class.ino - button managing class: voltage ranges of the buttons have been read from A0 analog pin
 - f_screen_class.ino - GUI
 - h_alarm_program.ino - integrates all the above mentioned classes
-- z_clock_project.ino - program main loop 
+- z_clock_project.ino - program main loop
 
 Hardware:
 - Arduino Uno R3
