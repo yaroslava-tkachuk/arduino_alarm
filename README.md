@@ -35,4 +35,4 @@ Quick testing has shown that the time shift of the alarm is up to few minutes pe
 
 Here You can see a video showing the clock in action:
 <br>https://www.youtube.com/watch?v=EpnY3sS503Y&list=PLtJUFm0bXNwasr-G3iWJ3LP29yKfUD6Ik&index=2
-P.S. Terrible buzzer sound warning! It is so bad, it could actually be used to torture people. Enjoy (if You can)!
+<br>P.S. Terrible buzzer sound warning! It is so bad, it could actually be used to torture people. Enjoy (if You can)!
